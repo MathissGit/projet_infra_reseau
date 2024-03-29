@@ -1,6 +1,4 @@
 <?php include('includes/partials/header.php') ?>
-
-<body>
     
 <div class="section">
 			<div class="moving-image"></div>
@@ -80,6 +78,4 @@
 <a href="https://themeforest.net/user/ig_design/portfolio" class="link-to-portfolio hover-target" target="_blank"></a>
  
 
-
-</body>
 <?php include('includes/partials/footer.php') ?>
