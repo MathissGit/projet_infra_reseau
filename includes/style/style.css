@@ -1,10 +1,23 @@
+
+
 body {
     background-color: #f8f9fa;
+    width: 100vw;
+    height: 100vh;
+
 }
+/* container form */
+.container-form {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    width: 60%;
+}
+
 /* page de connexion */
-  .login-form {
-    max-width: 350px;
-    margin: 100px auto;
+.login-form {
+    width: 100%;
     background: #fff;
     padding: 30px;
     border-radius: 5px;
@@ -17,8 +30,7 @@ body {
 
 /* page d'insription */
 .register-form {
-    max-width: 350px;
-    margin: 100px auto;
+    width: 100%;
     background: #fff;
     padding: 30px;
     border-radius: 5px;
