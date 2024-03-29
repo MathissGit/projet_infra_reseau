@@ -1,0 +1,30 @@
+body {
+    background-color: #f8f9fa;
+}
+/* page de connexion */
+  .login-form {
+    max-width: 350px;
+    margin: 100px auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+}
+.login-form h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* page d'insription */
+.register-form {
+    max-width: 350px;
+    margin: 100px auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+}
+.register-form h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
