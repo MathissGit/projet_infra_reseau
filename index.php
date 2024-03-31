@@ -1,5 +1,14 @@
-<?php include('includes/partials/header.php') ?>
-    
+<?php
+
+session_start();
+
+$PAGENAME = "HOTEL Acceuil";
+
+// Includes & Requires 
+require_once('includes/partials/header.php');
+
+?>
+
 <div class="section">
 			<div class="moving-image"></div>
 			<div class="shadow-title">apartment maria</div>

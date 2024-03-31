@@ -2,7 +2,7 @@
 
 session_start();
 
-$PAGENAME = "Page d'inscription";
+$PAGENAME = "Inscription";
 
 // Includes & Requires 
 require_once('includes/partials/header.php');

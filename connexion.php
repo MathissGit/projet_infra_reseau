@@ -1,5 +1,13 @@
-<?php require_once('includes/partials/header.php') ?>
+<?php
 
+session_start();
+
+$PAGENAME = "Connexion";
+
+// Includes & Requires 
+require_once('includes/partials/header.php');
+
+?>
 <div class="container-form">
     <div class="login-form">
         <h2>Connexion</h2>
