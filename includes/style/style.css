@@ -40,3 +40,17 @@ body {
     text-align: center;
     margin-bottom: 30px;
 }
+
+.option-form {
+  
+    & a {
+      color: #007bff;
+      text-decoration: none;
+    }
+  
+    & a:hover {
+      color: #004691;
+      
+    }
+  
+  }

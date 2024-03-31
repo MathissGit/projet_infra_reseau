@@ -14,7 +14,7 @@
             <input type="password" class="form-control" id="password" placeholder="Entrez votre mot de passe">
         </div>
         <button type="submit" class="btn btn-primary btn-block">Se connecter</button>
-        <a href="inscription.php">inscription</a>
+        <div class="option-form">Pas de compte ? <a href="inscription.php">Inscription</a></div>
         </form>
     </div>
 </div>
