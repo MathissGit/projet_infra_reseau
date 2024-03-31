@@ -42,7 +42,7 @@ require('serveur_db.php');
                 <label for="password">Mot de passe :</label>
                 <input type="password" class="form-control" id="password" name="password" placeholder="Entrez votre mot de passe">
             </div>
-            <button type="submit" class="btn btn-primary btn-block">Se connecter</button>
+            <button type="submit" class="btn btn-secondary btn-block">Se connecter</button>
             <div class="option-form">Pas de compte ? <a href="inscription.php">Inscription</a></div>
             <?php
                 if(isset($_GET['error']) && $_GET['error'] === 'incorrect'){

@@ -25,7 +25,7 @@ require_once('includes/partials/header.php');
                 <label for="password">Mot de passe :</label>
                 <input type="password" class="form-control" id="password" name="password" placeholder="Entrez votre mot de passe" require>
             </div>
-            <button type="submit" class="btn btn-primary btn-block">S'inscrire</button>
+            <button type="submit" class="btn btn-secondary btn-block">S'inscrire</button>
             <div class="option-form">Déja un compte ? <a href="connexion.php">Connexion</a></div>
 
             <?php 
