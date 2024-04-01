@@ -162,7 +162,7 @@ if(isset($_GET['chambre']) && $_GET['chambre'] === 'Standard') {
                 }
             }
         ?>
-        
+
         <h1><?php echo 'Chambre '.$chambre?></h1>
         <img src="<?php echo $image?>" alt="image chambre">
         <p class="textContainer"><?php echo $description ?></p>
@@ -172,7 +172,7 @@ if(isset($_GET['chambre']) && $_GET['chambre'] === 'Standard') {
             <li class="list-group-item">Capacité : <?php echo $nbPlaces ?> personnes</li>
         </ul>
         <br>
-        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">
             Réserver
         </button>
 
