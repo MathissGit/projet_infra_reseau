@@ -6,10 +6,6 @@
 
 
 
-//     <!-- TO DO : Ajouter une reservation  -->
-
-
-
 //     <!-- TO DO : Supprimer une réseravtion  -->
 
 
