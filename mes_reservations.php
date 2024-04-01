@@ -74,14 +74,14 @@ require('serveur_db.php');
             if ($result->num_rows > 0) {
 
                 while ($row = $result->fetch_assoc()) {
-                    echo '<div class="card" style="width: 30vw;">';
+                    echo '<div class="card col-md-4 mb-4">';
                     echo '<img src="includes/img/default.jpg" class="card-img-top" alt="image chambre par default">';
                     echo '<div class="card-body">';
                     echo '<h5 class="card-title">Chambre ' . $row['nomChambre'] . '</h5>';
                     echo '<ul class="list-group list-group-flush">';
                     echo "<li class='list-group-item'>Numéro de réservation : ". $row['idReservation'] . "</li>";
                     echo "<li class='list-group-item'>Date : ". $row['dateReservation'] . "</li>";
-                    echo "<li class='list-group-item'>Nombre de personnes : ". $row['nbPlaces'] . " personnes</li>";
+                    echo "<li class='list-group-item'>Nombre de personnes : ". $row['nbPlaces'] . "</li>";
                     echo "<li class='list-group-item'>Prix de la nuit : ". $row['prixChambre'] . " $</li>";
                     echo "<li class='list-group-item'>Nom de la réservation : ". $row['nomReservation'] . "</li>";
                     echo '</ul>';
