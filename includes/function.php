@@ -1,23 +1,6 @@
 <?php 
 
-// <!-- TO DO : CRUD  -->
 
-//     <!-- TO DO : Recuperer les infos sur les chambres pour les afficher  -->
-
-
-
-//     <!-- TO DO : Supprimer une réseravtion  -->
-
-
-
-//     <!-- TO DO : Modifier une reservation ( Nom, Prenom, Chambre, Date )  -->
-
-
-
-//     <!-- TO DO : Authentification d'un utilisateur (page de connexion) -->
-
-
-    
 // Fonction pour compter et recuperer le nombre de reservation faites par un client 
 function count_nb_reservation($emailUser) {
 

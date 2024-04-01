@@ -1,76 +1,75 @@
 body {
-    background: linear-gradient(to top, #f9e79f, white);
-    background-color: #f5f5f5;
+  background-color: #ece7e3;
 }
 /* container form */
 .container-form {
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    position: absolute;
-    width: 60%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  position: absolute;
+  width: 60%;
 }
 
 /* page de connexion */
 .login-form {
-    width: 100%;
-    background: #fff;
-    padding: 30px;
-    border-radius: 5px;
-    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+  width: 100%;
+  background: #fff;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
 }
 .login-form h2 {
-    text-align: center;
-    margin-bottom: 30px;
+  text-align: center;
+  margin-bottom: 30px;
 }
 
 /* page d'insription */
 .register-form {
-    width: 100%;
-    background: #fff;
-    padding: 30px;
-    border-radius: 5px;
-    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+  width: 100%;
+  background: #fff;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
 }
 .register-form h2 {
-    text-align: center;
-    margin-bottom: 30px;
+  text-align: center;
+  margin-bottom: 30px;
 }
 
 .option-form {
-  
-    & a {
-      color: #007bff;
-      text-decoration: none;
-    }
-  
-    & a:hover {
-      color: #004691;
-      
-    }
-  
+
+  & a {
+    color: #007bff;
+    text-decoration: none;
+  }
+
+  & a:hover {
+    color: #004691;
+    
+  }
+
 }
 
 /* Main container pour page Chambre  */
 .containerPrincipal {
-    border-radius: 8px; 
-    padding: 20px; 
-    margin-bottom: 20px;
-    max-width: 80vw;
-  
-    & img {
-      width: 100%;
-      max-width: 1000px;
-      max-height: 500px; 
-      object-fit: cover;
-      border-radius: 12px; 
-    }
-  
-    & .textContainer {
-      margin-top: 15px; 
-      max-width: 1000px;
-      text-align: justify;
-    }
+  border-radius: 8px; 
+  padding: 20px; 
+  margin-bottom: 20px;
+  max-width: 80vw;
+
+  & img {
+    width: 100%;
+    max-width: 1000px;
+    max-height: 500px; 
+    object-fit: cover;
+    border-radius: 12px; 
+  }
+
+  & .textContainer {
+    margin-top: 15px; 
+    max-width: 1000px;
+    text-align: justify;
+  }
   
 }
   
