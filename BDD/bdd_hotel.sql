@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1:3306
--- Généré le : dim. 31 mars 2024 à 12:23
+-- Généré le : lun. 01 avr. 2024 à 14:22
 -- Version du serveur : 8.0.31
 -- Version de PHP : 8.2.0
 
@@ -36,6 +36,15 @@ CREATE TABLE IF NOT EXISTS `chambre` (
   PRIMARY KEY (`idChambre`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
+--
+-- Déchargement des données de la table `chambre`
+--
+
+INSERT INTO `chambre` (`idChambre`, `nomChambre`, `nbPlaces`, `prixChambre`) VALUES
+(1, 'Standard', 2, '100.00'),
+(2, 'Familiale', 4, '200.00'),
+(3, 'Luxueuse', 2, '300.00');
+
 -- --------------------------------------------------------
 
 --
@@ -47,9 +56,17 @@ CREATE TABLE IF NOT EXISTS `reservation` (
   `emailUser` varchar(100) NOT NULL,
   `idChambre` int NOT NULL,
   `dateReservation` date NOT NULL,
+  `nomReservation` varchar(100) NOT NULL,
   PRIMARY KEY (`emailUser`,`idChambre`),
   KEY `idChambre` (`idChambre`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+--
+-- Déchargement des données de la table `reservation`
+--
+
+INSERT INTO `reservation` (`emailUser`, `idChambre`, `dateReservation`, `nomReservation`) VALUES
+('test@test.com', 1, '2024-04-19', 'nomTest');
 
 -- --------------------------------------------------------
 
@@ -64,6 +81,13 @@ CREATE TABLE IF NOT EXISTS `users` (
   `passwordUser` varchar(300) NOT NULL,
   PRIMARY KEY (`emailUser`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+--
+-- Déchargement des données de la table `users`
+--
+
+INSERT INTO `users` (`emailUser`, `nomUser`, `passwordUser`) VALUES
+('test@test.com', 'test', '$2y$10$5lVZJ80OokDwOnAT6IFXauXpZn9sz0q70FG8aAv0uDr2wpHSWXWZW');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
